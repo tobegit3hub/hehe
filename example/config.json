@@ -1,0 +1,8 @@
+{
+    "server":["106.187.93.241"],
+    "server_port":15216,
+    "local_port":1080,
+    "password":"oh_my_password",
+    "timeout":60,
+    "method":"aes-256-cfb"
+}
