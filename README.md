@@ -1,8 +1,8 @@
- _          _
-| |__   ___| |__   ___
-| '_ \ / _ \ '_ \ / _ \
-| | | |  __/ | | |  __/
-|_| |_|\___|_| |_|\___|
+     _          _
+    | |__   ___| |__   ___
+    | '_ \ / _ \ '_ \ / _ \
+    | | | |  __/ | | |  __/
+    |_| |_|\___|_| |_|\___|
 
 ## Introduction
 Hehe, not [bantu language](http://en.wikipedia.org/wiki/Hehe_language), is the encrypt program and security mechanism that allows you to put password on the Internet.
