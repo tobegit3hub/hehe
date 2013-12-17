@@ -34,7 +34,7 @@ nn2. Then replace the real password with your generated password, and rename you
         "method":"aes-256-cfb"
     }
 </pre>	
-4. Now it's safe to upload on github because your password is encrypted by the algorithm [Blowfish](http://en.wikipedia.org/wiki/Blowfish_(cipher)), which is safe enough even though the program is open source).
+4. Now it's safe to upload on github because your password is encrypted by the algorithm [Blowfish](http://en.wikipedia.org/wiki/Blowfish_(cipher), which is safe enough even though the program is open source).
 5. So when you checkout the file from github, you can use the `hehe` tool to restore your password and automatically generate the original file without suffix ".hehe".
 6. Write a script and all can be done without manual control. Checkout your configurations from github, make the soft link and `hehe` to generate the uncrypted files.
 
