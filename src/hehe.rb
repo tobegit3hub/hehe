@@ -6,6 +6,12 @@ require "base64"
 
 module Hehe
 
+  def self.print_usage
+    puts "Simple Usage:"
+    puts "hehe <passphrase> <password>"
+    puts "hehe <passphrase> <file_name>"
+  end
+
   def self.encrypt_string(passphrase, password)
     puts "hehe" + Base64.encode64(Blowfish.encrypt(passphrase, password)).gsub("\n","") + "hehe"
   end
@@ -24,14 +30,16 @@ module Hehe
 
     hehe_file.close
     origin_file.close
-    
   end
 
 end
 
 
 if __FILE__ == $0
-  return 1 if ARGV.length != 2 
+  if ARGV.length != 2
+    Hehe.print_usage
+    exit
+  end
 
   passphrase = ARGV[0]
   password_or_file = ARGV[1]
